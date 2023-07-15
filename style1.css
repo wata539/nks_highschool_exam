@@ -1,0 +1,84 @@
+body{
+    width: 1500px;
+    background: linear-gradient(to left, #0f0f0f, #333333);
+    color:rgb(255, 255, 255);
+}
+
+footer{
+    font-size: 10px;
+    font-weight: 200;
+}
+
+article.highschool_pass_exam{
+    position: relative;
+}
+
+section{
+    background-color:#0f0f0f;
+	font-size: 16px;
+    font-weight: 800;
+    margin-bottom: 40px;
+    margin-right: 40px;	
+    margin-left: 40px;
+}
+
+h1{margin-bottom: 30px;}
+
+h2{
+    line-height: 1px;
+}
+
+h3{  
+    font-size: 5px;
+    line-height: 1px;
+    margin-left: 30px;
+}
+
+h4{
+    margin-left: 40px;
+}
+
+a{
+    color:#b9eafd;
+    transition: color 0.2s;
+}
+
+a:hover{
+    color:rgb(255, 254, 197);
+}
+
+div.math_img img{
+    position: absolute;
+    top: 200px;
+    left: 800px;
+    width: 300px;
+    height: auto;
+    filter: blur(2px) opacity(80%);
+}
+
+div.hikakin img{
+    position: absolute;
+    top: -10px;
+    left: 750px;
+    width: 250px;
+    height: auto;
+    filter: saturate(50%);
+}
+
+div.seikin img{
+    position: absolute;
+    top: 400px;
+    left: 700px;
+    width: 250px;
+    height: auto;
+    filter: brightness(90%);
+}
+
+div.maruo img{
+    position: absolute;
+    top: 600px;
+    left: 1000px;
+    width: 500px;
+    height: auto;
+    filter: brightness(90%);
+}
